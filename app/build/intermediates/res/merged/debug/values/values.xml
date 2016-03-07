@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/workspace/VeepEmPro/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="asset1">#fff4522d</color>
+    <color name="asset2">#fffb6b3c</color>
+    <color name="asset3">#fffe784c</color>
+    <color name="asset4">#ffff8f68</color>
+    <color name="blue">#ff8cc3f6</color>
+    <color name="blue_clicked">#2D496E</color>
+    <color name="blue_unclicked">#4B79B8</color>
+    <color name="deep_green">#ff009000</color>
+    <color name="deep_red">#ff990000</color>
+    <color name="frame_red">#FF560000</color>
+    <color name="gray">#ff393636</color>
+    <color name="gray2">#3c3c3c</color>
+    <color name="gray3">#3a3a3a</color>
+    <color name="green">#ff00ff00</color>
+    <color name="green_2">#ff00ed21</color>
+    <color name="lavenderBlush">#FFDB7093</color>
+    <color name="light_yellow">#FF241B1B</color>
+    <color name="list_change_color_deep">#00004a</color>
+    <color name="min_btn_text_color">#838383</color>
+    <color name="min_green">#00cc00</color>
+    <color name="red">#FFFF0000</color>
+    <color name="red_2">#d70000</color>
+    <color name="selector_clickgrey">#fff0f0f0</color>
+    <color name="transparent">#9000</color>
+    <color name="transparent_background">#50000000</color>
+    <color name="up_dr_text_green_color">#019801</color>
+    <color name="up_pr_text_red_color">#c10101</color>
+    <color name="white">#ffffffff</color>
+    <color name="yellow">#FFFFFF00</color>
+    <declare-styleable name="PointTips"><attr format="reference" name="pointNormal"/><attr format="reference" name="pointSelected"/><attr format="dimension" name="pointHeight"/><attr format="dimension" name="pointMargin"/><attr format="integer" name="pointNumber"/></declare-styleable>
+    <declare-styleable name="PullToRefresh"><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr name="ptrMode"><flag name="disabled" value="0x0"/><flag name="pullFromStart" value="0x1"/><flag name="pullFromEnd" value="0x2"/><flag name="end" value="0x2"/><flag name="both" value="0x3"/><flag name="manualOnly" value="0x4"/><flag name="pullDownFromTop" value="0x1"/><flag name="pullUpFromBottom" value="0x2"/></attr><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="ptrDrawable"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrDrawableEnd"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr name="ptrAnimationStyle"><flag name="rotate" value="0x0"/><flag name="flip" value="0x1"/></attr><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="reference" name="ptrDrawableTop"/><attr format="reference" name="ptrDrawableBottom"/><attr format="reference" name="ptrStartStyle"><enum name="pull" value="0x1"/><enum name="auto" value="0x2"/><enum name="event" value="0x4"/></attr><attr format="reference" name="ptrEndStyle"><enum name="pull" value="0x1"/><enum name="auto" value="0x2"/><enum name="event" value="0x4"/></attr><attr name="ptrStyle"><enum name="pull" value="0x1"/><enum name="auto" value="0x2"/><enum name="event" value="0x4"/></attr></declare-styleable>
+    <declare-styleable name="drawer"><attr format="reference" name="top_layout"/><attr format="reference" name="right_layout"/><attr format="reference" name="bottom_layout"/><attr format="reference" name="left_layout"/></declare-styleable>
+    <!-- From: file:/D:/workspace/VeepEmPro/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="folder_height">150dip</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="image_height">100dip</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="panel_in_drawer_height">240dip</dimen>
+    <!-- From: file:/D:/workspace/VeepEmPro/app/build/intermediates/exploded-aar/VeepEmPro/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <item name="gridview" type="id"/>
+    <item name="scrollview" type="id"/>
+    <item name="webview" type="id"/>
+    <!-- From: file:/D:/workspace/VeepEmPro/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">ant_test</string>
+    <string name="folder_cols">2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="https_password1">password</string>
+    <string name="image_cols">3</string>
+    <string name="menu_settings">Settings</string>
+    <string name="p2r_scrollview_text">Android Studio使用Gradle-based构建系统，Google称这“提供了很大的灵活性和可扩展性”。关键的特性包括构建多样的支持以便更好地操作不同的构建类型（调试VS发布），或者同一个应用的不同版本（付费VS免费）， multi-APKs通过分段游处理，multi-dex支持并依赖第三方函数库管理。
+
+Google于今天同时发布了Gradle plugin的1.0版本。自从Android Studio和Gradle plugin之间的通信变得稳固之后，更新其中一个将不会要求更新另一个。
+
+下一步是什么
+
+当前的post-1.0路线图包含三个显著的附加物：本地的管理者、更好的重构支持和更多的Gradle 支持改进。Google称将计划添加特性，改进应用测试和更好的支持游戏开发。除此之外，Android产品经理Jamal Eason告诉VentureBeat（互联网产业新闻博客），公司在关于Android Studio的未来方面没有具体的分享。
+
+随着第一个稳定版本的发布，公司将使用一个一览表，类似于Google Chrome的发布渠道，这意味着开发者能选择那些他们快速获得Android Studio的最新特性。
+
+Android Studio有四个不同的版本（你可以在页面里通过设置更新来改变版本），包括Canary、 Dev、 Beta和Stable。下面是它们的详细介绍：
+
+    Canary版本：这个版本的更新频率大概是一周，当它们被测试时，它们仍受制于Bug，Google希望开发者能够尽快的发现新Bug。
+    Dev版本：该版本是从Canary版本精心挑选出来的，经受住了时间的考验，更新频率为一周或一个月。
+    Beta版本：尽管Android Studio的存在一直被视为预览质量级别的，它有少数的beta版本，从0.8.14到最新版都是Beta版的候选人。
+    Stable版本：今天发布的1.0版本，以及其他的稳定的里程碑版本。
+
+Android Studio仍然和Microsoft的Visual Studio相距甚远，但是很容易看到，Google是如何把它渗透到竞争对手那边的，命名和方向。然而Google似乎完全满意于把IDE的焦点仅放到开发其移动操作系统。</string>
+    <!-- From: file:/D:/workspace/VeepEmPro/app/src/main/res/values/pull_refresh_strings.xml -->
+    <eat-comment/>
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_pull_label">Pull to refresh…</string>
+    <string name="pull_to_refresh_refreshing_label">Loading…</string>
+    <string name="pull_to_refresh_release_label">Release to refresh…</string>
+    <!-- From: file:/D:/workspace/VeepEmPro/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="title_activity_call_remote_function">CallRemoteFunctionActivity</string>
+    <!-- From: file:/D:/workspace/VeepEmPro/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="Transparent">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>   
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+</resources>

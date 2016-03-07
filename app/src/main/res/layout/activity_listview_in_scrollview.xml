@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <com.example.ant_test.listview_in_scrollview.ScrollViewWithFixedView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/sv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:orientation="vertical"
+            android:id="@+id/ll1">
+            <TextView
+                android:id="@+id/tv0"
+                android:layout_width="fill_parent"
+                android:layout_height="200dip"
+
+                android:text="111"/>
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dip"
+                    android:layout_below="@id/tv0"
+                    android:text="222"/>
+                <ListView
+                    android:id="@+id/listView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="800dip"
+                    android:layout_below="@id/tv1">
+
+                </ListView>
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dip"
+                    android:text="222"/>
+
+            <!--<TextView-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="850dip"-->
+                <!--android:text="333"/>-->
+
+        </RelativeLayout>
+
+    </com.example.ant_test.listview_in_scrollview.ScrollViewWithFixedView>

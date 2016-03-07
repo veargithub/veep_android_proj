@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <com.example.ant_test.rounded_bitmap.RoundedImageView
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:src="@drawable/ps3"
+        android:scaleType="centerCrop"
+        />
+    
+    <ImageView 
+        android:id="@+id/iv1"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_margin="20dip"
+        android:background="#FF000000"
+        android:src="@drawable/ps3"
+        />
+
+</LinearLayout>

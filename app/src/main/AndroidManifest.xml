@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ant_test"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="10" />
+
+    <permission android:name="com.example.ant_test.permission.JPUSH_MESSAGE" android:protectionLevel="signature" /><!-- 极光推送 -->
+    <uses-permission android:name="com.example.ant_test.permission.JPUSH_MESSAGE"/><!-- 极光推送 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" /> <!-- 锁屏相关权限 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name=".AntTestApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name=".FragmentTestActivity" />
+        <activity android:name=".BindingActivity" >
+        </activity>
+        <activity android:name=".expandablelistview.ExpandableList" >
+        </activity>
+        <activity android:name=".tableview.VFTableViewActivity" >
+        </activity>
+        <activity android:name=".tableview.TestMyTableLayoutActivity" >
+        </activity>
+        <activity android:name=".progressbar.ProgressbarActivity" >
+        </activity>
+        <activity android:name=".ping.PingActivity" >
+        </activity>
+        <activity android:name=".picshift.PicShiftActivity" >
+        </activity>
+
+        <activity android:name=".targetAPI.TargetApiTest" >
+        </activity>
+        <activity android:name=".show_image_in_sdcard.ShowImageInSdcardActivity" >
+        </activity>
+        <activity android:name=".targetAPI.TargetApiTest2" >
+        </activity>
+        <activity android:name=".file_operation.FileOperatorActivity" >
+        </activity>
+        <activity android:name=".webview.WebViewActivity" >
+        </activity>
+        <activity android:name=".webview.WebViewActivity2" >
+
+        </activity>
+        <activity android:name=".intentFlag.IntentFlagActivity" >
+
+        </activity>
+        <activity android:name=".circle.CircleActivity" >
+
+        </activity>
+        <activity android:name=".bezier_curve.BezierActivity" >
+
+        </activity>
+        <activity android:name=".gradient_area.GradientAreaActivity" >
+
+        </activity>
+        <activity android:name=".intentFlag.ActivityA" >
+        </activity>
+        <activity android:name=".intentFlag.ActivityB" >
+        </activity>
+        <activity android:name=".intentFlag.ActivityC" >
+        </activity>
+        <activity android:name=".running_activities.RunningActivity" >
+        </activity>
+        <activity android:name=".textview_with_circle.TextViewWithCircleActivity" >
+        </activity>
+        <activity android:name=".slidingPaneLayout.SlidingPaneLayoutActivity" >
+        </activity>
+        <activity android:name=".notification.NotificationTestActivity" >
+        </activity>
+        <activity android:name=".removeInSlidingListView.RemoveInSlidingListViewActivity" >
+
+        </activity>
+        <activity android:name=".menu_in_listview_item.MenuInListViewActivity">
+
+        </activity>
+        <activity android:name=".js_bridge.JsBridgeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".dragable_gridview.DragableGridViewActivity" >
+        </activity>
+        <activity android:name=".touchEventConveyance.TouchEventConveyanceActivity" >
+        </activity>
+        <activity android:name=".showpicture.ShowAllPictureInDeviceActivity" >
+        </activity>
+        <activity android:name=".loadRaw.LoadRawActivity" >
+        </activity>
+        <activity android:name=".service2.MyActivity" >
+        </activity>
+        <activity android:name=".pull_to_refresh_scrollview.Pull2RefreshScrollViewActivity" >
+        </activity>
+        <activity android:name=".opengles.OpenglESFooActivity" >
+        </activity>
+        <activity android:name=".scheme.SchemeActivityMain" >
+
+        </activity>
+        <activity
+            android:name=".scheme.SchemeActivityA"
+            android:exported="false" > <!-- exported设置为false，别的应用就进不来 -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <!-- 这个action貌似也不能省 -->
+                <category android:name="android.intent.category.DEFAULT" />
+                <!--
+               must set a category, cause: Android treats all implicit intents passed to startActivity() as if they contained
+               at least one category: “android.intent.category.DEFAULT” (the CATEGORY_DEFAULT constant). Therefore, activities
+               that are willing to receive implicit intents must include “android.intent.category.DEFAULT” in their intent filters
+                -->
+                <data android:scheme="in://user/invite" />
+                <data android:scheme="in2://user/invite2"  />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".scheme.SchemeActivityB"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="in" android:path="user/SchemeActivityB"  />
+                <data android:scheme="in2" android:path="user/SchemeActivityB"  />
+            </intent-filter>
+        </activity>
+        <activity android:name=".log_to_file.LogToFileActivity" >
+
+        </activity>
+        <activity android:name=".camera.CameraTestActivity" >
+        </activity>
+        <activity android:name=".point_tips.PointTipsActivity" >
+        </activity>
+        <activity android:name=".picshift.SlideImagesActivity" >
+        </activity>
+        <activity android:name=".vertical_horizontal_scrollview.VHScrollViewActivity" >
+        </activity>
+        <activity android:name=".vertical_horizontal_scrollview.TestMyTableLayoutActivity" >
+        </activity>
+        <activity android:name=".sliding_menu.SlidingMenuActivity" >
+        </activity>
+        <activity android:name=".disk_lru_cache.DiskLruCacheTestActivity" >
+        </activity>
+        <activity android:name=".rounded_bitmap.RoundedBitmapActivity" >
+        </activity>
+        <activity android:name=".image_loader.activity.ImageLoaderActivity" >
+
+        </activity>
+        <activity android:name=".https.HttpsActivity" >
+        </activity>
+        <activity android:name=".pull2refresh.activity.P2RscrollviewActivity" >
+
+        </activity>
+        <activity android:name=".pull2refresh.activity.P2RlistviewActivity" >
+        </activity>
+        <activity android:name=".pull2refresh.activity.BounceListViewActivity" >
+
+        </activity>
+        <activity android:name=".slient_install.SilentInstallActivity">
+
+        </activity>
+        <activity android:name=".plugin.PluginMainActivity">
+
+        </activity>
+        <activity android:name=".plugin.PluginResActivity">
+
+        </activity>
+        <activity android:name=".plugin.PluginHostActivity">
+
+        </activity>
+        <activity android:name=".media_player.MediaPlayerActivity">
+
+        </activity>
+        <activity android:name=".pull2refresh.activity.P2RgridviewActivity" >
+        </activity>
+        <activity android:name=".pull2refresh.activity.P2RmainActivity" >
+        </activity>
+        <activity
+            android:name=".show_dialog_on_screen_locked.ShowDialogOnScreenLockedActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar" > <!-- android:theme="@style/Transparent" -->
+
+        </activity>
+        <activity android:name=".proguard_with_so.ProguardWithSoActivity" >
+        </activity>
+        <activity android:name=".drawer.DrawerActivity" >
+        </activity>
+        <activity android:name=".drawer.DrawerActivity2" >
+        </activity>
+
+        <service android:name=".service2.MyService" />
+        <service android:name=".notification.NotificationTestService" />
+        <service android:name=".service.LocalService" />
+        <service
+            android:name=".service.RemoteService"
+            android:process="com.example.ant_test.LocalService" />
+
+        <meta-data
+            android:name="com.eastmoney.android.berlin.productVersion"
+            android:value="102" />
+        <!-- test broadcast across process -->
+        <activity android:name=".broadcast.BroadcastTestActivity" >
+        </activity>
+
+        <service android:name=".broadcast.BroadcastTestService" >
+        </service>
+
+        <receiver android:name=".broadcast.TestReceiver" >
+        </receiver>
+
+        <activity
+            android:name=".call_remote_function.CallRemoteFunctionActivity"
+            android:label="@string/title_activity_call_remote_function" >
+
+        </activity>
+        <activity android:name=".interpolator.InterpolatorActivity">
+
+        </activity>
+        <activity android:name=".path_tracing.TestActivity">
+
+        </activity>
+        <activity android:name=".listview_in_scrollview.ListviewInScrollviewActivity">
+
+        </activity>
+        <activity android:name=".listview_in_scrollview.FixedViewInScrollViewActivity">
+
+        </activity>
+
+
+        <!-- JPush start  -->
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService"
+                    />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME"
+                    />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true" >
+            <intent-filter android:priority="1000"> <!--since 1.3.5 -->
+                <action
+                    android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" />
+                <!--since 1.3.5 -->
+                <category android:name="com.example.ant_test" /> <!--since 1.3.5
+-->
+            </intent-filter> <!--since 1.3.5 -->
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT"
+                    />
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"
+                    />
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="orientation|keyboardHidden" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+                <category android:name="android.intent.category.DEFAULT"
+                    />
+                <category android:name="com.example.ant_test" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <receiver android:name="cn.jpush.android.service.AlarmReceiver" />
+
+        <receiver
+            android:name="com.example.ant_test.receiver.jpush.JPushReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION" />
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" />
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" />
+                <category android:name="com.example.ant_test" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data android:name="JPUSH_CHANNEL"
+            android:value="developer-default"/>
+        <!-- Required. AppKey copied from Portal -->
+        <meta-data android:name="JPUSH_APPKEY" android:value="7a3482937e55706100241918"/>
+        <!-- JPush end -->
+    </application>
+
+</manifest>

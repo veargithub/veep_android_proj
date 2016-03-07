@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ant_test</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="folder_cols">2</string>
+    <string name="image_cols">3</string>
+    <string name="https_password1">password</string>
+    <string name="p2r_scrollview_text">Android Studio使用Gradle-based构建系统，Google称这“提供了很大的灵活性和可扩展性”。关键的特性包括构建多样的支持以便更好地操作不同的构建类型（调试VS发布），或者同一个应用的不同版本（付费VS免费）， multi-APKs通过分段游处理，multi-dex支持并依赖第三方函数库管理。
+
+Google于今天同时发布了Gradle plugin的1.0版本。自从Android Studio和Gradle plugin之间的通信变得稳固之后，更新其中一个将不会要求更新另一个。
+
+下一步是什么
+
+当前的post-1.0路线图包含三个显著的附加物：本地的管理者、更好的重构支持和更多的Gradle 支持改进。Google称将计划添加特性，改进应用测试和更好的支持游戏开发。除此之外，Android产品经理Jamal Eason告诉VentureBeat（互联网产业新闻博客），公司在关于Android Studio的未来方面没有具体的分享。
+
+随着第一个稳定版本的发布，公司将使用一个一览表，类似于Google Chrome的发布渠道，这意味着开发者能选择那些他们快速获得Android Studio的最新特性。
+
+Android Studio有四个不同的版本（你可以在页面里通过设置更新来改变版本），包括Canary、 Dev、 Beta和Stable。下面是它们的详细介绍：
+
+    Canary版本：这个版本的更新频率大概是一周，当它们被测试时，它们仍受制于Bug，Google希望开发者能够尽快的发现新Bug。
+    Dev版本：该版本是从Canary版本精心挑选出来的，经受住了时间的考验，更新频率为一周或一个月。
+    Beta版本：尽管Android Studio的存在一直被视为预览质量级别的，它有少数的beta版本，从0.8.14到最新版都是Beta版的候选人。
+    Stable版本：今天发布的1.0版本，以及其他的稳定的里程碑版本。
+
+Android Studio仍然和Microsoft的Visual Studio相距甚远，但是很容易看到，Google是如何把它渗透到竞争对手那边的，命名和方向。然而Google似乎完全满意于把IDE的焦点仅放到开发其移动操作系统。</string>
+    <string name="title_activity_call_remote_function">CallRemoteFunctionActivity</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

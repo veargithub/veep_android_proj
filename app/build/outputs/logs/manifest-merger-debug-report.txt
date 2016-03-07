@@ -1,0 +1,575 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:2:1-330:12
+	xmlns:android
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:2:11-69
+	package
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [VeepEmPro:Vcomm:unspecified] D:\workspace\VeepEmPro\app\build\intermediates\exploded-aar\VeepEmPro\Vcomm\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [VeepEmPro:library:unspecified] D:\workspace\VeepEmPro\app\build\intermediates\exploded-aar\VeepEmPro\library\unspecified\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:8:9-34
+		INJECTED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml
+permission#com.example.ant_test.permission.JPUSH_MESSAGE
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:11:5-116
+	android:protectionLevel
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:11:78-113
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:11:17-77
+uses-permission#com.example.ant_test.permission.JPUSH_MESSAGE
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:12:5-84
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:12:22-82
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:13:22-72
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:14:5-84
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:14:22-81
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:15:5-77
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:15:22-75
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:16:5-73
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:16:22-70
+uses-permission#android.permission.INTERNET
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:18:22-64
+uses-permission#android.permission.GET_TASKS
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:19:5-68
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:19:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:20:22-63
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:21:5-80
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:21:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:22:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:24:5-75
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:24:22-72
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:25:22-65
+application
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:27:5-328:19
+MERGED from [VeepEmPro:Vcomm:unspecified] D:\workspace\VeepEmPro\app\build\intermediates\exploded-aar\VeepEmPro\Vcomm\unspecified\AndroidManifest.xml:11:5-15:19
+MERGED from [VeepEmPro:library:unspecified] D:\workspace\VeepEmPro\app\build\intermediates\exploded-aar\VeepEmPro\library\unspecified\AndroidManifest.xml:11:5-20
+	android:label
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:31:9-41
+	android:allowBackup
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:29:9-35
+	android:icon
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:30:9-45
+	android:theme
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:32:9-40
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:28:9-35
+activity#com.example.ant_test.MainActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:33:9-36:20
+	android:label
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:35:13-45
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:34:13-41
+activity#com.example.ant_test.FragmentTestActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:37:9-58
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:37:19-55
+activity#com.example.ant_test.BindingActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:38:9-39:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:38:19-50
+activity#com.example.ant_test.expandablelistview.ExpandableList
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:40:9-41:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:40:19-68
+activity#com.example.ant_test.tableview.VFTableViewActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:42:9-43:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:42:19-64
+activity#com.example.ant_test.tableview.TestMyTableLayoutActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:44:9-45:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:44:19-70
+activity#com.example.ant_test.progressbar.ProgressbarActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:46:9-47:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:46:19-66
+activity#com.example.ant_test.ping.PingActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:48:9-49:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:48:19-52
+activity#com.example.ant_test.picshift.PicShiftActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:50:9-51:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:50:19-60
+activity#com.example.ant_test.targetAPI.TargetApiTest
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:53:9-54:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:53:19-58
+activity#com.example.ant_test.show_image_in_sdcard.ShowImageInSdcardActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:55:9-56:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:55:19-81
+activity#com.example.ant_test.targetAPI.TargetApiTest2
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:57:9-58:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:57:19-59
+activity#com.example.ant_test.file_operation.FileOperatorActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:59:9-60:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:59:19-70
+activity#com.example.ant_test.webview.WebViewActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:61:9-62:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:61:19-58
+activity#com.example.ant_test.webview.WebViewActivity2
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:63:9-65:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:63:19-59
+activity#com.example.ant_test.intentFlag.IntentFlagActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:66:9-68:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:66:19-64
+activity#com.example.ant_test.circle.CircleActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:69:9-71:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:69:19-56
+activity#com.example.ant_test.bezier_curve.BezierActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:72:9-74:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:72:19-62
+activity#com.example.ant_test.gradient_area.GradientAreaActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:75:9-77:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:75:19-69
+activity#com.example.ant_test.intentFlag.ActivityA
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:78:9-79:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:78:19-55
+activity#com.example.ant_test.intentFlag.ActivityB
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:80:9-81:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:80:19-55
+activity#com.example.ant_test.intentFlag.ActivityC
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:82:9-83:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:82:19-55
+activity#com.example.ant_test.running_activities.RunningActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:84:9-85:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:84:19-69
+activity#com.example.ant_test.textview_with_circle.TextViewWithCircleActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:86:9-87:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:86:19-82
+activity#com.example.ant_test.slidingPaneLayout.SlidingPaneLayoutActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:88:9-89:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:88:19-78
+activity#com.example.ant_test.notification.NotificationTestActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:90:9-91:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:90:19-72
+activity#com.example.ant_test.removeInSlidingListView.RemoveInSlidingListViewActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:92:9-94:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:92:19-90
+activity#com.example.ant_test.menu_in_listview_item.MenuInListViewActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:95:9-97:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:95:19-79
+activity#com.example.ant_test.js_bridge.JsBridgeActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:98:9-103:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:98:19-61
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:99:13-102:29
+action#android.intent.action.MAIN
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:100:17-69
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:100:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:101:17-77
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:101:27-74
+activity#com.example.ant_test.dragable_gridview.DragableGridViewActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:104:9-105:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:104:19-77
+activity#com.example.ant_test.touchEventConveyance.TouchEventConveyanceActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:106:9-107:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:106:19-84
+activity#com.example.ant_test.showpicture.ShowAllPictureInDeviceActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:108:9-109:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:108:19-77
+activity#com.example.ant_test.loadRaw.LoadRawActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:110:9-111:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:110:19-58
+activity#com.example.ant_test.service2.MyActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:112:9-113:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:112:19-54
+activity#com.example.ant_test.pull_to_refresh_scrollview.Pull2RefreshScrollViewActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:114:9-115:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:114:19-92
+activity#com.example.ant_test.opengles.OpenglESFooActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:116:9-117:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:116:19-63
+activity#com.example.ant_test.scheme.SchemeActivityMain
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:118:9-120:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:118:19-60
+activity#com.example.ant_test.scheme.SchemeActivityA
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:121:9-136:20
+	android:exported
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:123:13-37
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:122:13-51
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:124:13-135:29
+action#android.intent.action.VIEW
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:125:17-69
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:125:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:127:17-76
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:127:27-73
+data
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:133:17-59
+	android:scheme
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:133:23-56
+activity#com.example.ant_test.scheme.SchemeActivityB
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:137:9-146:20
+	android:exported
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:139:13-37
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:138:13-51
+activity#com.example.ant_test.log_to_file.LogToFileActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:147:9-149:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:147:19-64
+activity#com.example.ant_test.camera.CameraTestActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:150:9-151:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:150:19-60
+activity#com.example.ant_test.point_tips.PointTipsActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:152:9-153:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:152:19-63
+activity#com.example.ant_test.picshift.SlideImagesActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:154:9-155:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:154:19-63
+activity#com.example.ant_test.vertical_horizontal_scrollview.VHScrollViewActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:156:9-157:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:156:19-86
+activity#com.example.ant_test.vertical_horizontal_scrollview.TestMyTableLayoutActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:158:9-159:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:158:19-91
+activity#com.example.ant_test.sliding_menu.SlidingMenuActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:160:9-161:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:160:19-67
+activity#com.example.ant_test.disk_lru_cache.DiskLruCacheTestActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:162:9-163:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:162:19-74
+activity#com.example.ant_test.rounded_bitmap.RoundedBitmapActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:164:9-165:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:164:19-71
+activity#com.example.ant_test.image_loader.activity.ImageLoaderActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:166:9-168:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:166:19-76
+activity#com.example.ant_test.https.HttpsActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:169:9-170:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:169:19-54
+activity#com.example.ant_test.pull2refresh.activity.P2RscrollviewActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:171:9-173:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:171:19-78
+activity#com.example.ant_test.pull2refresh.activity.P2RlistviewActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:174:9-175:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:174:19-76
+activity#com.example.ant_test.pull2refresh.activity.BounceListViewActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:176:9-178:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:176:19-79
+activity#com.example.ant_test.slient_install.SilentInstallActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:179:9-181:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:179:19-71
+activity#com.example.ant_test.plugin.PluginMainActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:182:9-184:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:182:19-60
+activity#com.example.ant_test.plugin.PluginResActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:185:9-187:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:185:19-59
+activity#com.example.ant_test.plugin.PluginHostActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:188:9-190:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:188:19-60
+activity#com.example.ant_test.media_player.MediaPlayerActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:191:9-193:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:191:19-67
+activity#com.example.ant_test.pull2refresh.activity.P2RgridviewActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:194:9-195:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:194:19-76
+activity#com.example.ant_test.pull2refresh.activity.P2RmainActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:196:9-197:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:196:19-72
+activity#com.example.ant_test.show_dialog_on_screen_locked.ShowDialogOnScreenLockedActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:198:9-204:20
+	android:theme
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:202:13-70
+	android:excludeFromRecents
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:200:13-46
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:199:13-90
+	android:launchMode
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:201:13-48
+activity#com.example.ant_test.proguard_with_so.ProguardWithSoActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:205:9-206:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:205:19-74
+activity#com.example.ant_test.drawer.DrawerActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:207:9-208:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:207:19-56
+activity#com.example.ant_test.drawer.DrawerActivity2
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:209:9-210:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:209:19-57
+service#com.example.ant_test.service2.MyService
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:212:9-55
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:212:18-52
+service#com.example.ant_test.notification.NotificationTestService
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:213:9-73
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:213:18-70
+service#com.example.ant_test.service.LocalService
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:214:9-57
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:214:18-54
+service#com.example.ant_test.service.RemoteService
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:215:9-217:67
+	android:process
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:217:13-64
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:216:13-50
+meta-data#com.eastmoney.android.berlin.productVersion
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:219:9-221:35
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:220:13-71
+	android:value
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:221:13-32
+activity#com.example.ant_test.broadcast.BroadcastTestActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:223:9-224:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:223:19-66
+service#com.example.ant_test.broadcast.BroadcastTestService
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:226:9-227:19
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:226:18-64
+receiver#com.example.ant_test.broadcast.TestReceiver
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:229:9-230:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:229:19-57
+activity#com.example.ant_test.call_remote_function.CallRemoteFunctionActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:232:9-236:20
+	android:label
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:234:13-72
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:233:13-76
+activity#com.example.ant_test.interpolator.InterpolatorActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:237:9-239:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:237:19-68
+activity#com.example.ant_test.path_tracing.TestActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:240:9-242:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:240:19-60
+activity#com.example.ant_test.listview_in_scrollview.ListviewInScrollviewActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:243:9-245:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:243:19-86
+activity#com.example.ant_test.listview_in_scrollview.FixedViewInScrollViewActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:246:9-248:20
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:246:19-87
+service#cn.jpush.android.service.PushService
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:252:9-264:19
+	android:exported
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:255:13-37
+	android:enabled
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:254:13-35
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:253:13-64
+intent-filter#cn.jpush.android.intent.PUSH_TIME+cn.jpush.android.intent.PushService+cn.jpush.android.intent.REGISTER+cn.jpush.android.intent.REPORT
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:256:13-263:29
+action#cn.jpush.android.intent.REGISTER
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:257:17-75
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:257:25-72
+action#cn.jpush.android.intent.REPORT
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:258:17-73
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:258:25-70
+action#cn.jpush.android.intent.PushService
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:259:17-260:23
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:259:25-75
+action#cn.jpush.android.intent.PUSH_TIME
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:261:17-262:23
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:261:25-73
+receiver#cn.jpush.android.service.PushReceiver
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:266:9-289:20
+	android:enabled
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:268:13-35
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:267:13-65
+intent-filter#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+com.example.ant_test
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:269:13-275:29
+	android:priority
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:269:28-51
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:270:17-271:90
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:271:21-87
+category#com.example.ant_test
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:273:17-65
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:273:27-62
+intent-filter#android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:276:13-281:29
+action#android.intent.action.USER_PRESENT
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:277:17-278:23
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:277:25-74
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:279:17-280:75
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:280:21-72
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REMOVED
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:282:13-288:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:283:17-284:23
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:283:25-75
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:285:17-286:76
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:286:21-73
+activity#cn.jpush.android.ui.PushActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:291:9-301:20
+	android:configChanges
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:294:13-63
+	android:theme
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:293:13-72
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:292:13-60
+intent-filter#android.intent.category.DEFAULT+cn.jpush.android.ui.PushActivity+com.example.ant_test
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:295:13-300:29
+action#cn.jpush.android.ui.PushActivity
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:296:17-75
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:296:25-72
+service#cn.jpush.android.service.DownloadService
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:303:9-307:19
+	android:exported
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:306:13-37
+	android:enabled
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:305:13-35
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:304:13-68
+receiver#cn.jpush.android.service.AlarmReceiver
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:309:9-75
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:309:19-72
+receiver#com.example.ant_test.receiver.jpush.JPushReceiver
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:311:9-321:20
+	android:enabled
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:313:13-35
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:312:13-77
+intent-filter#cn.jpush.android.intent.MESSAGE_RECEIVED+cn.jpush.android.intent.NOTIFICATION_OPENED+cn.jpush.android.intent.NOTIFICATION_RECEIVED+cn.jpush.android.intent.REGISTRATION+com.example.ant_test
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:314:13-320:29
+action#cn.jpush.android.intent.REGISTRATION
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:315:17-79
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:315:25-76
+action#cn.jpush.android.intent.MESSAGE_RECEIVED
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:316:17-83
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:316:25-80
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:317:17-88
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:317:25-85
+action#cn.jpush.android.intent.NOTIFICATION_OPENED
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:318:17-86
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:318:25-83
+meta-data#JPUSH_CHANNEL
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:323:9-324:48
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:323:20-48
+	android:value
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:324:13-46
+meta-data#JPUSH_APPKEY
+ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:326:9-90
+	android:name
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:326:20-47
+	android:value
+		ADDED from D:\workspace\VeepEmPro\app\src\main\AndroidManifest.xml:326:48-88

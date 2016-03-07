@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SlidingPaneLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sp" >
+    <TextView 
+        android:layout_width="160dip"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:text="111"/>
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FF000000"
+        android:textColor="#FFFFFFFF"
+        android:gravity="center_vertical"
+        android:text="222" />
+
+</android.support.v4.widget.SlidingPaneLayout><!-- From: file:/D:/workspace/VeepEmPro/app/src/main/res/layout/activity_sliding_pane_layout.xml -->

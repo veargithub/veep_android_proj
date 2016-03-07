@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+	   		<solid android:color="@color/selector_clickgrey" />
+	    	<stroke android:width="1dip" android:color="#FFADADAD"/>
+			<corners android:topLeftRadius="2dip" android:topRightRadius="2dip" 
+		    android:bottomLeftRadius="2dip" android:bottomRightRadius="2dip"/>
+		</shape>
+	</item>
+	<item android:state_focused="true">
+        <shape android:shape="rectangle">
+	   		<solid android:color="@color/selector_clickgrey" />
+	    	<stroke android:width="1dip" android:color="#FFADADAD"/>
+			<corners android:topLeftRadius="2dip" android:topRightRadius="2dip" 
+		    android:bottomLeftRadius="2dip" android:bottomRightRadius="2dip"/>
+		</shape>
+	</item>
+	<item android:state_selected="true">
+        <shape android:shape="rectangle">
+	   		<solid android:color="@color/selector_clickgrey" />
+	    	<stroke android:width="1dip" android:color="#FFADADAD"/>
+			<corners android:topLeftRadius="2dip" android:topRightRadius="2dip" 
+		    android:bottomLeftRadius="2dip" android:bottomRightRadius="2dip"/>
+		</shape>
+	</item>
+	<item>
+		<shape android:shape="rectangle">
+		    <solid android:color="#FFFFFFFF"/>
+		    <stroke android:width="1dip" android:color="#FFADADAD"/>
+			<corners android:topLeftRadius="2dip" android:topRightRadius="2dip" 
+			    android:bottomLeftRadius="2dip" android:bottomRightRadius="2dip"/>
+		</shape>
+	</item>
+</selector>
+<!-- From: file:/D:/workspace/VeepEmPro/app/src/main/res/drawable/bg_above_rounded_corner.xml -->

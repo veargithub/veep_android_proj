@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PullToRefresh">
+        <attr name="ptrHeaderBackground" format="reference|color" />
+        <attr name="ptrHeaderTextColor" format="reference|color" />
+        <attr name="ptrHeaderSubTextColor" format="reference|color" />
+        <attr name="ptrHeaderTextAppearance" format="reference" />
+        <attr name="ptrSubHeaderTextAppearance" format="reference" />
+        <attr name="ptrDrawable" format="reference" />
+        <attr name="ptrRotateDrawableWhilePulling" format="reference|boolean" />
+        <attr name="ptrOverScroll" format="reference|boolean" />
+        
+        <attr name="ptrMode">
+            <flag name="disable" value="0x0" />
+            <flag name="start" value="0x1" />
+            <flag name="end" value="0x2" />
+            <flag name="both" value="0x3" />
+            <flag name="manualStart" value="0x4" />
+			<flag name="manualEnd" value="0x5" />
+            <flag name="manualBoth" value="0x6" />
+        </attr>
+        
+        <attr name="ptrAnimationStyle">
+            <flag name="rotate" value="0x0" />
+            <flag name="flip" value="0x1" />
+        </attr>
+        
+        <attr name="ptrStartStyle" format="reference">
+            <enum name="pull" value="0x1" />
+            <enum name="auto" value="0x2" />
+            <enum name="event" value="0x4" />
+        </attr>
+        <attr name="ptrEndStyle" format="reference">
+            <enum name="pull" value="0x1" />
+            <enum name="auto" value="0x2" />
+            <enum name="event" value="0x4" />
+        </attr>
+        
+        <attr name="ptrStyle">
+            <enum name="pull" value="0x1" />
+            <enum name="auto" value="0x2" />
+            <enum name="event" value="0x4" />
+         </attr>
+        
+        <attr name="ptrRefreshableViewBackground" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="drawer">
+        <attr name="top_layout" format="reference" />
+        <attr name="right_layout" format="reference" />
+        <attr name="bottom_layout" format="reference" />
+        <attr name="left_layout" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PointTips">
+        <attr name="pointNormal" format="reference"/>
+        <attr name="pointSelected" format="reference" />
+        <attr name="pointHeight" format="dimension" />
+        <attr name="pointMargin" format="dimension" />
+        <attr name="pointNumber" format="integer" />
+    </declare-styleable>
+</resources>

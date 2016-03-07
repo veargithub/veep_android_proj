@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"><!--	android:gravity="center_vertical"  -->
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="center_vertical"
+		android:id="@+id/line">
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_marginLeft="15dp"
+			android:layout_centerVertical="true"
+			android:id="@+id/icon"
+			android:visibility="gone" />
+		<!-- TextView   -->
+		<com.example.ant_test.textview_with_circle.TextViewWithCircle 
+        	
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			
+			android:layout_toRightOf="@id/icon"
+			android:layout_centerVertical="true"
+			android:gravity="center_vertical"
+			android:text=""
+			android:textColor="@android:color/black"
+			android:textSize="16sp"
+			
+			android:id="@+id/text" />
+  		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:visibility="gone"
+			android:padding="3dip"
+			android:layout_centerInParent="true"
+			android:gravity="center_vertical"
+			android:text="委托交易"
+			android:textColor="@android:color/black"
+			android:textSize="16sp"
+			android:singleLine="true"
+			android:id="@+id/text2" />
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_toRightOf="@id/text"
+			android:paddingLeft="10dp"
+			android:layout_centerVertical="true"
+			android:gravity="center_vertical"
+			android:text="(同步自选)"
+			android:visibility="gone"
+			android:textColor="@android:color/black"
+			android:singleLine="true"
+			android:textSize="13sp"
+			android:id="@+id/note" />
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="25dp"
+			android:visibility="gone"
+			android:id="@+id/new_tag" />
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_centerVertical="true"
+			android:gravity="right"
+			android:layout_toRightOf="@+id/text"
+			android:text="未登录"
+			android:textColor="@android:color/black"
+			android:singleLine="true"
+			android:visibility="gone"
+			android:textSize="13sp"
+			android:paddingRight="10dip"
+			android:paddingLeft="10dip"
+			android:id="@+id/loginName" />
+	</RelativeLayout>
+	<TextView android:id="@+id/tv1"
+	   	android:layout_width="wrap_content"
+	   	android:layout_height="wrap_content"
+	   	android:textColor="@android:color/black"
+		android:textSize="16sp"
+	   	android:text="1234567"/>
+</LinearLayout>
+<!-- android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_toRightOf="@id/text" -->

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#FFFF0000</color>
+    <color name="frame_red">#FF560000</color>
+    <color name="yellow">#FFFFFF00</color>
+    <color name="light_yellow">#FF241B1B</color>
+    <color name="lavenderBlush">#FFDB7093</color>
+    <color name="green">#ff00ff00</color>
+    <color name="deep_green">#ff009000</color>
+    <color name="green_2">#ff00ed21</color>
+    <color name="min_green">#00cc00</color>
+    <color name="gray">#ff393636</color>
+    <!-- <color name="gray">#ff241B1B</color> -->
+    <color name="deep_red">#ff990000</color>
+    <color name="red_2">#d70000</color>
+    <color name="blue_unclicked">#4B79B8</color>
+    <color name="blue_clicked">#2D496E</color>
+    <color name="transparent_background">#50000000</color>
+    <color name="gray2">#3c3c3c</color>
+    <color name="gray3">#3a3a3a</color>
+    <color name="min_btn_text_color">#838383</color>
+    <color name="up_pr_text_red_color">#c10101</color>
+    <color name="up_dr_text_green_color">#019801</color>
+    <color name="list_change_color_deep">#00004a</color>
+    
+    <color name="selector_clickgrey">#fff0f0f0</color>
+    <color name="blue">#ff8cc3f6</color>
+    
+    <color name="transparent">#9000</color>
+
+    <color name="asset1">#fff4522d</color>
+    <color name="asset2">#fffb6b3c</color>
+    <color name="asset3">#fffe784c</color>
+    <color name="asset4">#ffff8f68</color>
+
+    <color name="white">#ffffffff</color>
+</resources>

