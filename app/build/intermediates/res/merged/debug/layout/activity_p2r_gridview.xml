@@ -19,4 +19,4 @@
         ptr:ptrMode="both"
         ptr:ptrDrawable="@drawable/ic_launcher" />
 
-</LinearLayout><!-- From: file:/D:/workspace/VeepEmPro/app/src/main/res/layout/activity_p2r_gridview.xml -->
+</LinearLayout>

@@ -5,4 +5,4 @@
         android:orderInCategory="100"
         android:title="@string/menu_settings"/>
 
-</menu><!-- From: file:/D:/workspace/VeepEmPro/app/src/main/res/menu/activity_main.xml -->
+</menu>

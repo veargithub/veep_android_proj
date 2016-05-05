@@ -15,4 +15,4 @@
 	<TextView android:id="@+id/val2" android:layout_width="0dip" android:layout_height="wrap_content" android:layout_weight="1" android:background="#FF000000" android:textColor="#FFFFFFFF" android:textSize="16sp" android:padding="5dip"/>
 	<TextView android:id="@+id/val3" android:layout_width="0dip" android:layout_height="wrap_content" android:layout_weight="1" android:background="#FF000000" android:textColor="#FFFFFFFF" android:textSize="16sp" android:padding="5dip"/>
 	<TextView android:id="@+id/val4" android:layout_width="0dip" android:layout_height="wrap_content" android:layout_weight="1" android:background="#FF000000" android:textColor="#FFFFFFFF" android:textSize="16sp" android:padding="5dip"/>
-</LinearLayout><!-- From: file:/D:/workspace/VeepEmPro/app/src/main/res/layout/common_stocktable_view.xml -->
+</LinearLayout>

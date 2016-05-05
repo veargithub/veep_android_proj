@@ -19,4 +19,4 @@
 		android:layout_marginLeft="20dip"
 		android:textSize="22sp" />
 
-</LinearLayout><!-- From: file:/D:/workspace/VeepEmPro/app/src/main/res/layout/item_list_image.xml -->
+</LinearLayout>

@@ -29,4 +29,4 @@
         android:indeterminate="true"
         android:visibility="gone" />
 
-</RelativeLayout><!-- From: file:/D:/workspace/VeepEmPro/app/src/main/res/layout/pull_to_refresh_footer.xml -->
+</RelativeLayout>

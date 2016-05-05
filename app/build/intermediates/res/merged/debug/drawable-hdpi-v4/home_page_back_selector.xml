@@ -4,4 +4,3 @@
 	<item android:drawable="@drawable/home_page_back_click" android:state_pressed="true"></item>
 	<item android:drawable="@drawable/home_page_back"></item>
 </selector>
-<!-- From: file:/D:/workspace/VeepEmPro/app/src/main/res/drawable-hdpi/home_page_back_selector.xml -->

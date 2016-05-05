@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="19" />
+        android:targetSdkVersion="22" />
 
     <permission
         android:name="com.example.ant_test.permission.JPUSH_MESSAGE"
@@ -92,11 +92,6 @@
         <activity android:name="com.example.ant_test.menu_in_listview_item.MenuInListViewActivity" >
         </activity>
         <activity android:name="com.example.ant_test.js_bridge.JsBridgeActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name="com.example.ant_test.dragable_gridview.DragableGridViewActivity" >
         </activity>
@@ -235,6 +230,25 @@
         <activity android:name="com.example.ant_test.listview_in_scrollview.ListviewInScrollviewActivity" >
         </activity>
         <activity android:name="com.example.ant_test.listview_in_scrollview.FixedViewInScrollViewActivity" >
+        </activity>
+        <activity
+            android:name="com.example.ant_test.listview_in_scrollview.CoordinatorLayoutActivity"
+            android:theme="@style/Theme.AppCompat" >
+        </activity>
+        <activity
+            android:name="com.example.ant_test.switch_perference.SwitchPreferenceActivity"
+            android:theme="@style/appCompatSwitch" >
+        </activity>
+        <activity
+            android:name="com.example.ant_test.toolbar.ToolBarActivity"
+            android:theme="@style/appCompatToolBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.ant_test.wheel.WheelActivity" >
         </activity>
 
         <!-- JPush start -->

@@ -19,9 +19,7 @@ import com.handmark.pulltorefresh.library.PullToRefreshBase;
 public class FixedViewInScrollViewActivity extends Activity  {
 
     private TextView tvFour, tvCopy;
-    private PullToRefreshScrollViewWithFixedView sv1;
-    private View[] tabs;
-    private int[] tabIds = {R.id.llTab0, R.id.llTab1, R.id.llTab2};
+    private ScrollViewWithFixedView sv1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,42 +28,7 @@ public class FixedViewInScrollViewActivity extends Activity  {
         setContentView(R.layout.activity_fixed_view_in_sv);
         tvFour = (TextView)findViewById(R.id.tvFour);
         tvCopy = (TextView)findViewById(R.id.tvCopy);
-        tabs = new View[tabIds.length];
-        for (int i = 0; i < tabIds.length; i++) {
-            tabs[i] = findViewById(tabIds[i]);
-            if (i == 0) tabs[i].setVisibility(View.VISIBLE);
-            else tabs[i].setVisibility(View.GONE);
-        }
-
-        sv1 = (PullToRefreshScrollViewWithFixedView) findViewById(R.id.sv1);
+        sv1 = (ScrollViewWithFixedView) findViewById(R.id.sv1);
         sv1.setViews(tvFour, tvCopy);
-        sv1.setOnRefreshListener(new PullToRefreshBase.OnRefreshListener<ScrollView>() {
-            @Override
-            public void onRefresh(PullToRefreshBase<ScrollView> refreshView) {
-                sv1.postDelayed(new Runnable() {
-                    @Override
-                    public void run() {
-                        sv1.onRefreshComplete();
-                        int current = 0;
-                        for (int i = 0; i < tabs.length; i++) {
-                            if (tabs[i].getVisibility() == View.VISIBLE) {
-                                current = i;
-                                break;
-                            }
-                        }
-                        int next = (current + 1) % tabs.length;
-                        for (int i = 0; i < tabs.length; i++) {
-                            if (i == next) tabs[i].setVisibility(View.VISIBLE);
-                            else tabs[i].setVisibility(View.GONE);
-                        }
-                    }
-                }, 1000);
-
-            }
-        });
-
     }
-
-
-
 }

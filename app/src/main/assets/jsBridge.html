@@ -1,8 +1,16 @@
 <input type="button" name="btn1" value="btn1" onclick="f1()">
 
+<br/>
+
+<div id="div1">java call js</div>
+
 <script type="text/javascript">
 	function f1() {
 		//alert(1);
 		Bridge.doSomething();
+	}
+
+	function javaCallJs(param1) {
+		document.getElementById("div1").innerHTML += ("<br\>" + param1);
 	}
 </script>

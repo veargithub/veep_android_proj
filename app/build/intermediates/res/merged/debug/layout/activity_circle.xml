@@ -10,4 +10,4 @@
         android:id="@+id/scv1"
         android:layout_width="200dip"
         android:layout_height="200dip" />
-</LinearLayout><!-- From: file:/D:/workspace/VeepEmPro/app/src/main/res/layout/activity_circle.xml -->
+</LinearLayout>

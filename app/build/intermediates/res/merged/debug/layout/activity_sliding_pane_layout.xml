@@ -17,4 +17,4 @@
         android:gravity="center_vertical"
         android:text="222" />
 
-</android.support.v4.widget.SlidingPaneLayout><!-- From: file:/D:/workspace/VeepEmPro/app/src/main/res/layout/activity_sliding_pane_layout.xml -->
+</android.support.v4.widget.SlidingPaneLayout>

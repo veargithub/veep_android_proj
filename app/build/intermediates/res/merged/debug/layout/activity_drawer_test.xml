@@ -11,4 +11,3 @@
         android:id="@+id/bottom1"
         android:layout_gravity="bottom"/>
 </FrameLayout>
-<!-- From: file:/D:/workspace/VeepEmPro/app/src/main/res/layout/activity_drawer_test.xml -->

@@ -17,4 +17,4 @@
         android:numColumns="3" >
     </com.example.ant_test.dragable_gridview.DragableGridView>
 
-</LinearLayout><!-- From: file:/D:/workspace/VeepEmPro/app/src/main/res/layout/activity_dragable_gridview.xml -->
+</LinearLayout>

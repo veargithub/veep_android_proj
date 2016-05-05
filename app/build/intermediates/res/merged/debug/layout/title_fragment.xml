@@ -5,4 +5,4 @@
     android:orientation="vertical" >
     <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="title" android:gravity="center" />
 
-</LinearLayout><!-- From: file:/D:/workspace/VeepEmPro/app/src/main/res/layout/title_fragment.xml -->
+</LinearLayout>

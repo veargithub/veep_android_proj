@@ -4,4 +4,3 @@
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" android:showAsAction="never" />
 </menu>
-<!-- From: file:/D:/workspace/VeepEmPro/app/src/main/res/menu/call_remote_function_menu.xml -->

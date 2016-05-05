@@ -7,4 +7,4 @@
     <fragment class="com.example.ant_test.fragment.TitleFragment" android:id="@+id/fragmentTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" />
 	
 	<fragment class="com.example.ant_test.fragment.MenuFragment" android:id="@+id/fragmentMenu" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</LinearLayout><!-- From: file:/D:/workspace/VeepEmPro/app/src/main/res/layout/activity_fragment.xml -->
+</LinearLayout>

@@ -20,4 +20,4 @@
 		<TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:padding="20dip" android:text="1111"/>
 	    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:padding="20dip" android:text="1111"/>
 	</LinearLayout>
-</ScrollView><!-- From: file:/D:/workspace/VeepEmPro/app/src/main/res/layout/activity_touch_event_conveyance.xml -->
+</ScrollView>

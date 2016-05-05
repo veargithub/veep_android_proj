@@ -14,4 +14,3 @@
 	    <Button android:id="@+id/btn3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="https 双向"/>
 	</LinearLayout>
 </ScrollView>
-<!-- From: file:/D:/workspace/VeepEmPro/app/src/main/res/layout/activity_https.xml -->

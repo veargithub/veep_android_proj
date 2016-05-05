@@ -7,4 +7,3 @@
     <Button android:id="@+id/btn1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="go"/>
 
 </LinearLayout>
-<!-- From: file:/D:/workspace/VeepEmPro/app/src/main/res/layout/activity_with_one_textview_and_one_button.xml -->

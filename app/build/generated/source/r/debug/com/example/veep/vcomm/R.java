@@ -8,9 +8,9 @@ package com.example.veep.vcomm;
 
 public final class R {
 	public static final class drawable {
-		public static final int ic_launcher = 0x7f02000b;
+		public static final int ic_launcher = 0x7f02004c;
 	}
 	public static final class string {
-		public static final int app_name = 0x7f060007;
+		public static final int app_name = 0x7f060018;
 	}
 }
