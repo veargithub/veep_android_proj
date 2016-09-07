@@ -1,10 +1,12 @@
 package com.example.ant_test;
 
 import android.app.Application;
+import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.util.Log;
 
+import com.dodola.rocoofix.RocooFix;
 import com.example.ant_test.crash_handler.VCrashHandler;
 import com.example.ant_test.receiver.receiver1.ConnectivityReceiver;
 import com.example.ant_test.show_dialog_on_screen_locked.ShowDialogOnScreenLockedReceiver;
@@ -51,6 +53,14 @@ public class AntTestApp extends Application{
 				}
 			}
 		}.start();
+	}
+
+	@Override
+	protected void attachBaseContext(Context base) {
+		super.attachBaseContext(base);
+		//打补丁
+		RocooFix.init(this);
+//		RocooFix.initPathFromAssets(this, "patch.jar");
 	}
 	
 }

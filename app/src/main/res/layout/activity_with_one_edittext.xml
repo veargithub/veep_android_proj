@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/ll1">
+            <EditText android:id="@+id/et1"
+                android:layout_width="match_parent"
+                android:layout_height="40dip" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="30dip"
+                android:text="111"
+                android:layout_marginTop="20dip"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dip"
+                android:text="222"
+                android:layout_marginTop="20dip"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dip"
+                android:text="333"
+                android:layout_marginTop="20dip"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dip"
+                android:text="444"
+                android:layout_marginTop="20dip"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dip"
+                android:text="555"
+                android:layout_marginTop="20dip"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dip"
+                android:text="666"
+                android:layout_marginTop="20dip"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dip"
+                android:text="777"
+                android:layout_marginTop="20dip"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dip"
+                android:text="888"
+                android:layout_marginTop="20dip"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dip"
+                android:text="999"
+                android:layout_marginTop="20dip"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dip"
+                android:text="888"
+                android:layout_marginTop="20dip"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dip"
+                android:text="999"
+                android:layout_marginTop="20dip"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dip"
+                android:text="888"
+                android:layout_marginTop="20dip"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dip"
+                android:text="999"
+                android:layout_marginTop="20dip"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dip"
+                android:text="888"
+                android:layout_marginTop="20dip"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dip"
+                android:text="999"
+                android:layout_marginTop="20dip"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView android:id="@+id/layer1"
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:text="AAA"
+        android:background="@color/red"
+        android:visibility="visible"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+
+        />
+    <!--android:layout_marginBottom="827px"-->
+</RelativeLayout>

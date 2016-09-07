@@ -66,7 +66,7 @@ public class TestWheelAdapter extends AbstractWheelAdapter {
                 }
                 textView.setText(text);
 
-                textView.setLines(1);
+                //textView.setLines(1);
             }
             return convertView;
         }

@@ -1,0 +1,91 @@
+apply plugin: GreetingPlugin
+
+//这是一个自定义的gradle脚本，在命令行cd到这个目录，输入gradle -q hello可以看到结果,其中<<可以去掉
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath fileTree(dir: 'libs', include: '*.jar')
+    }
+}
+
+apply plugin: 'veepfirstgradleplugin'
+
+
+class GreetingPlugin implements Plugin<Project> {
+    void apply(Project project) {
+
+        project.task('hello') << {//如果多个plugin中有相同的方法，则编译会报错
+            println "Hello from the GreetingPlugin"
+        }
+
+        project.extensions.create("myExtension", MyExtension);//这个create必须要放在task外，否则会出错
+
+        project.task("extension") << {//输入gradle -q extension,其中<<可以去掉
+            println(project.myExtension.message);
+        }
+
+        project.extensions.create("myClosure", MyClosure);
+
+        project.task("closure") << {
+            println(project.myClosure.key + " " + project.myClosure.val);
+            //也可以这样写
+            //println("${project.myClosure.key} ${project.myClosure.val}");
+        }
+
+    }
+}
+
+class MyExtension {
+    def String message = "my extension message";//这边加不加def都一样
+}
+
+myExtension.message = "hi from extension";
+
+class MyClosure {
+    String key;
+    String val;
+}
+
+myClosure {
+    key = "mykey";
+    val = "myval";
+}
+
+class ManufactureFileTask extends DefaultTask {
+
+    def destination
+
+    File getDestination() {
+        project.file(destination)
+    }
+
+    @TaskAction
+    def write() {//当这个task被execute的时候，标记为@taskaction会自己执行
+        println("auto run!!");
+        def file = getDestination();
+        file.parentFile.mkdirs();
+        file.write("hello");
+    }
+    @TaskAction
+    def read() {//如果一个task里有2个或以上的method被标记为@taskaction,那么这些method会同时被执行，其顺序是不确定的
+    }
+}
+
+task autoRun(type : ManufactureFileTask) {
+    destination = {project.testFile};
+}
+
+task foo(dependsOn : autoRun) << {//<<表示方法体最后执行
+    println(testFile);
+    println file(testFile).text;
+}
+
+ext.testFile = "$buildDir/hello.txt";//$buildDir返回的是当前目录下的build文件夹，ext是一个全局变量
+
+//veep_first_gradle_plugin {
+//    message = "this is my first gradle plugin!!!!"
+//}
+

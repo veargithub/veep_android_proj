@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.ant_test"
-    android:versionCode="1"
+    android:versionCode="3"
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
-        android:targetSdkVersion="22" />
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
 
     <permission
         android:name="com.example.ant_test.permission.JPUSH_MESSAGE"
@@ -33,6 +33,7 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
+        android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.example.ant_test.MainActivity"
@@ -242,13 +243,26 @@
         <activity
             android:name="com.example.ant_test.toolbar.ToolBarActivity"
             android:theme="@style/appCompatToolBar" >
+        </activity>
+        <activity
+            android:name="com.example.ant_test.keyboard_height.KeyBoardHeightActivity"
+            android:theme="@style/appCompatToolBar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.example.ant_test.swipe_layout.example.ScrollViewActivity"
+            android:theme="@style/appCompatToolBar" >
+        </activity>
+        <activity
+            android:name="com.example.ant_test.swiperefresh.SwipeRefreshActivity"
+            android:theme="@style/appCompatToolBar" >
+        </activity>
+        <activity android:name="com.example.ant_test.wheel.WheelActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name="com.example.ant_test.wheel.WheelActivity" >
         </activity>
 
         <!-- JPush start -->

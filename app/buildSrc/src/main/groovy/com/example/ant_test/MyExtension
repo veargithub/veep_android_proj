@@ -1,0 +1,6 @@
+package com.example.ant_test;
+
+class MyExtension {
+    String message;
+
+}

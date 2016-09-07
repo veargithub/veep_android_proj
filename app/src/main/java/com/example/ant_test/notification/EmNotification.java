@@ -7,6 +7,7 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
+import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -40,7 +41,12 @@ public class EmNotification {
         intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
         PendingIntent contentIntent = PendingIntent.getActivity(context, 0,
         		intent, PendingIntent.FLAG_UPDATE_CURRENT);
-        notification.setLatestEventInfo(context, "test", message, contentIntent);
+        //notification.setLatestEventInfo(context, "test", message, contentIntent);//这个方法被干掉了，使用如下代码替代
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(context);
+        notification = builder.setContentIntent(contentIntent)
+                .setSmallIcon(icon).setTicker("test").setWhen(0)
+                .setAutoCancel(true).setContentTitle("title")
+                .setContentText("test").build();
         notificationManager.notify(i++, notification);
     }
 	
@@ -58,7 +64,11 @@ public class EmNotification {
         intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
         PendingIntent contentIntent = PendingIntent.getActivity(context, 0,
         		new Intent(), PendingIntent.FLAG_UPDATE_CURRENT);
-        notification.setLatestEventInfo(context, "test", id + "", contentIntent);
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(context);
+        notification = builder.setContentIntent(contentIntent)
+                .setTicker("test").setWhen(0)
+                .setAutoCancel(true).setContentTitle("title")
+                .setContentText("test").build();
         notificationManager.notify(id, notification);
 	}
 }

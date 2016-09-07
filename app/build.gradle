@@ -1,38 +1,104 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.dodola.rocoofix'
+
+repositories {
+    maven {
+        url  "http://dl.bintray.com/dodola/maven"
+    }
+}
+
+rocoo_fix {
+    includePackage = ['com/example/ant_test']//限制需要制作补丁的package
+    excludeClass = ['AntTestApp.class']//将不需要加到patch里的类写在这里
+
+    preVersionPath = '3'//注意：此项属性只在需要制作补丁的时候才需开启！！如果不需要制作补丁则需要去掉此项
+
+    enable = false//注意：关掉此项会无法生成Hash.txt文件
+
+//    scanref=true//默认为 false，开启这个选项会将与补丁 class 相引用的 class 都打入包中来解决 ART 虚拟机崩溃问题，功能 Beta 中
+}
 
 android {
-    compileSdkVersion 22
-    buildToolsVersion "22.0.1"
+    useLibrary "org.apache.http.legacy"
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
 
     defaultConfig {
         applicationId "com.example.ant_test"
-        minSdkVersion 8
-        targetSdkVersion 22
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 3
+        versionName "1.0"
 
 //        ndk {
 //            moduleName "hello-jni"
 //        }
     }
 
-    buildTypes {
+    signingConfigs {
         release {
-            minifyEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+            storeFile file("noahyijie.keystore")
+            storePassword "noahyijie"
+            keyAlias "noahyijie"
+            keyPassword "noahyijie"
         }
     }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled true
+            shrinkResources true
+            zipAlignEnabled true
+            proguardFiles 'proguard-project.txt', getDefaultProguardFile('proguard-android.txt')
+        }
+    }
+
+
 
     sourceSets.main {
         jni.srcDirs = [] // This prevents the auto generation of Android.mk
         jniLibs.srcDir 'src/main/libs' // This is not necessary unless you have precompiled libraries in your project.
     }
+
+    productFlavors {
+        //veep {}
+    }
+
+    productFlavors.all { flavor ->
+        flavor.manifestPlaceholders = [CHANNEL_NAME: name]
+    }
 }
 
 dependencies {
-    compile 'com.android.support:design:22.2.1'
-    compile 'com.android.support:appcompat-v7:22.1.0'
-    compile 'com.android.support:support-v4:22.1.0'
+    compile 'com.android.support:design:23.2.1'
+    compile 'com.android.support:appcompat-v7:23.1.0'
+    compile 'com.android.support:support-v4:23.1.0'
     compile files('libs/universal-image-loader-1.9.3-with-sources.jar')
     compile files('libs/jpush-sdk-release1.7.5.jar')
+    compile files('libs/buildSrc.jar')
+    compile 'com.dodola:rocoo:1.0'
+//    repositories {
+//        flatDir dirs: "build/libs"
+//    }
+//    dependencies {
+//        classpath "com.example.ant_test:VeepFirstGradlePlugin:1.0.0"
+//    }
     compile project(':Vcomm')
-    compile project(':library')
 }
+
+buildscript {
+    repositories {
+        maven {
+            url uri('../repo')
+        }
+    }
+    dependencies {
+        //classpath 'com.example.ant_test.gradle.plugin:VeepGradleTest:1.0.0'
+        classpath 'cn.edu.zafu.gradle.plugin:test:1.0.0'
+    }
+}
+//apply plugin: 'plugin.test'
+//apply plugin: 'veepfirstgradleplugin'
+
+

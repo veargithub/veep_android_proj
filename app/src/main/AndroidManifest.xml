@@ -253,13 +253,25 @@
         </activity>
         <activity android:name=".toolbar.ToolBarActivity"
             android:theme="@style/appCompatToolBar">
+        </activity>
+        <activity android:name=".keyboard_height.KeyBoardHeightActivity"
+            android:theme="@style/appCompatToolBar"
+            android:windowSoftInputMode="adjustPan">
+
+        </activity>
+        <activity android:name=".swipe_layout.example.ScrollViewActivity"
+            android:theme="@style/appCompatToolBar">
+
+        </activity>
+        <activity android:name=".swiperefresh.SwipeRefreshActivity"
+            android:theme="@style/appCompatToolBar">
+
+        </activity>
+        <activity android:name=".wheel.WheelActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".wheel.WheelActivity">
-
         </activity>
 
         <!-- JPush start  -->

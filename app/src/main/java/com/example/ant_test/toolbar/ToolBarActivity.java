@@ -31,8 +31,6 @@ public class ToolBarActivity extends AppCompatActivity implements Toolbar.OnMenu
         toolbar.setSubtitleTextAppearance(this, R.style.myToolbarSubTitleStyle);
         //toolbar.inflateMenu(R.menu.base_toolbar_menu);
 
-
-
         toolbar.setOnMenuItemClickListener(this);
 
     }
@@ -43,6 +41,7 @@ public class ToolBarActivity extends AppCompatActivity implements Toolbar.OnMenu
         MenuItem favoriteMenuItem = toolbar.getMenu().findItem(R.id.menu_fund_detail);
         if (favoriteMenuItem != null) {
             favoriteMenuItem.setIcon(getResources().getDrawable(R.drawable.fund_add));
+            favoriteMenuItem.setTitle("add");
             favoriteMenuItem.setVisible(true);
         }
         return super.onCreateOptionsMenu(menu);
@@ -56,9 +55,11 @@ public class ToolBarActivity extends AppCompatActivity implements Toolbar.OnMenu
                 if (item.getIcon().getConstantState().equals(getResources().getDrawable(R.drawable.fund_add).getConstantState())) {
                     Log.d(">>>>", "fund_add");
                     item.setIcon(getResources().getDrawable(R.drawable.fund_added2));
+                    item.setTitle("add2");
                 } else {
                     Log.d(">>>>", "fund_add2");
                     item.setIcon(getResources().getDrawable(R.drawable.fund_add));
+                    item.setTitle("add");
                 }
                 Toast.makeText(this, "add favorite", Toast.LENGTH_SHORT).show();
                 break;

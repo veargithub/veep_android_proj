@@ -1,3 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="D:\workspace\VeepEmPro\app\libs\universal-image-loader-1.9.3-with-sources.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="27d3eeaf2bb863e73770270908a6e13faff4a614">
+        <dex dex="D:\workspace\VeepEmPro\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3-with-sources_d488c6b5ed9ae88b8a78f5b286b38559a840d7b1.jar" />
+    </item>
+    <item
+        jar="D:\workspace\VeepEmPro\app\build\intermediates\exploded-aar\VeepEmPro\Vcomm\unspecified\jars\libs\android-logging-log4j-1.0.3.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a73912c98fa46b905f3a43662fe1c50b5fc08214">
+        <dex dex="D:\workspace\VeepEmPro\app\build\intermediates\pre-dexed\debug\android-logging-log4j-1.0.3_420cbc9373a3c5b102be666f24fe20f5ba40677a.jar" />
+    </item>
+    <item
+        jar="D:\workspace\VeepEmPro\app\build\intermediates\exploded-aar\VeepEmPro\Vcomm\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3a59c602f7082244ef7367cd26da3b43875924b6">
+        <dex dex="D:\workspace\VeepEmPro\app\build\intermediates\pre-dexed\debug\VeepEmPro-Vcomm-unspecified_b1630bd9a90ddf70214eda42751ac86b359d11d0.jar" />
+    </item>
+    <item
+        jar="D:\workspace\VeepEmPro\app\build\intermediates\exploded-aar\VeepEmPro\Vcomm\unspecified\jars\libs\log4j-1.2.16.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="436373a60bb2a81942af33c3a8f78eb618a4d2e3">
+        <dex dex="D:\workspace\VeepEmPro\app\build\intermediates\pre-dexed\debug\log4j-1.2.16_c0f891f9bae8575d254ec5d678c77cbc2ca5ee74.jar" />
+    </item>
+    <item
+        jar="D:\workspace\VeepEmPro\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="D:\workspace\VeepEmPro\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.2.1_aeedefdf5171e976ceab40db7ea6227d1acb83d4.jar" />
+    </item>
+    <item
+        jar="D:\workspace\VeepEmPro\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="D:\workspace\VeepEmPro\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_6be082de69f1941641212b37f78d300b8121703b.jar" />
+    </item>
+    <item
+        jar="D:\workspace\VeepEmPro\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="D:\workspace\VeepEmPro\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.2.1_e9db73194301ef57fbc3fefaffbfa77ee4219360.jar" />
+    </item>
+    <item
+        jar="D:\android_sdk\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="5734d13754c1948a2bf6f14632dee7181b35afe6">
+        <dex dex="D:\workspace\VeepEmPro\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_8cb095dbc06777c83fc79f8d00e65f82fc3e5f4f.jar" />
+    </item>
+    <item
+        jar="D:\workspace\VeepEmPro\app\libs\jpush-sdk-release1.7.5.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="996df3f99ce7140e3d764c6aa5ef0cb23b67c373">
+        <dex dex="D:\workspace\VeepEmPro\app\build\intermediates\pre-dexed\debug\jpush-sdk-release1.7.5_0eebe02dfab316cbd9ab08565e4105b9b6880d56.jar" />
+    </item>
+    <item
+        jar="D:\workspace\VeepEmPro\app\build\intermediates\exploded-aar\com.dodola\rocoo\1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="783c93245767bfa4f5e42a31a0920666f90c5308">
+        <dex dex="D:\workspace\VeepEmPro\app\build\intermediates\pre-dexed\debug\com.dodola-rocoo-1.0_f19a4a5527cbb79214048bc2629a17d755cebeec.jar" />
+    </item>
+    <item
+        jar="D:\workspace\VeepEmPro\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="D:\workspace\VeepEmPro\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_af2646c719afbef6a60efb2f9ce7149b0d507d9a.jar" />
+    </item>
+    <item
+        jar="D:\workspace\VeepEmPro\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="D:\workspace\VeepEmPro\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_2f57f9a4abc498da1d439faea26d22a8a26065bc.jar" />
+    </item>
+    <item
+        jar="D:\workspace\VeepEmPro\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="D:\workspace\VeepEmPro\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_a7046631a1558bb1592e5a107702864cddb343a1.jar" />
+    </item>
+    <item
+        jar="D:\workspace\VeepEmPro\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="D:\workspace\VeepEmPro\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_cd59f31f8588c267d61a8c0d6058138aabf2338a.jar" />
+    </item>
+
+</items>

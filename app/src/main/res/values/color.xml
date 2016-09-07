@@ -34,4 +34,11 @@
     <color name="asset4">#ffff8f68</color>
 
     <color name="white">#ffffffff</color>
+    <color name="transparent_white">#88ffffff</color>
+
+    <color name="material_red">#ffF44336</color>
+    <color name="material_green">#ff4CAF50</color>
+    <color name="material_blue">#ff03A9F4</color>
+    <color name="material_yellow">#ffFFEB3B</color>
+    <color name="material_gray">#222735</color>
 </resources>

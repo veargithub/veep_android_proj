@@ -10,7 +10,7 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.example.ant_test.R;
-import com.handmark.pulltorefresh.library.PullToRefreshBase;
+//import com.handmark.pulltorefresh.library.PullToRefreshBase;
 
 /**
  * Created by 3020mt on 2015/12/18.
